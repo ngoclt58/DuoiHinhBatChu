@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:background="@android:color/black"
+        >
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="2"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="2.5"
+              android:text="@string/crazymath"
+              android:gravity="center"
+              android:textColor="@android:color/holo_blue_light"
+              android:textSize="50sp"
+    />
+
+    <Button android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_background"
+            android:text="@string/REPLAY"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_replay"
+    />
+
+    <Button android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_background"
+            android:text="@string/exit"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_exit"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1.5"
+              android:text="@string/copyright"
+              android:gravity="right"
+              android:textColor="@android:color/holo_blue_light"
+              android:textSize="15sp"
+              android:paddingTop="50dp"
+              android:paddingRight="20dp"
+    />
+</LinearLayout>

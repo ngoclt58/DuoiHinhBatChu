@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DuoiHinhBatChu</string>
+    <string name="action_settings">Settings</string>
+    <string name="nextQuestion">Câu Tiếp</string>
+    <string name="crazymath">Đuổi hình bắt chữ</string>
+    <string name="copyright">COPY RIGHT BY NGỌC LÊ</string>
+    <string name="exit">EXIT</string>
+    <string name="REPLAY">REPLAY</string>
+</resources>
